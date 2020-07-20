@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li><a href="tab2.html#tab1">このリンクはTab1に飛びます。</a></li>
+    <li><a href="tab2.html#tab2">このリンクはTab2に飛びます。</a></li>
+    <li><a href="tab2.html#tab3">このリンクはTab3に飛びます。</a></li>
+    <li><a id="jump" value="amino-simple" href="tab2.html#tab2" onclick="takeData()">このリンクはTab2のリンクに飛びます。</a></li>
+    <li><a id="hop" value="amino-simple" onclick="takeData()">データを取る</a></li>
+</ul>
+
+
+<!--<script type="text/javascript">-->
+<!--    //ダイレクトリンク-->
+<!--    var takeData = function (){-->
+<!--        const data = document.getElementById("jump");-->
+<!--        console.log(data);-->
+<!--        //location.hashで#以下を取得 変数hashに格納-->
+<!--    }-->
+<!--</script>-->
+
+</body>
+</html>

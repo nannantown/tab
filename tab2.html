@@ -75,7 +75,7 @@
         <br>
         <br>
         <br>
-        <a name="new">ここに飛びたい</a>
+        <a id="first">ここに飛びたい</a>
         <br>
         <br>
         <br>
@@ -118,6 +118,7 @@
         <br>
         <br>
         <br>
+        <a id="second">ここに飛びたいpart2</a>
         <br>
         <br>
         <br>
@@ -159,10 +160,6 @@
     });
     //ダイレクトリンク
     $(function() {
-        // var takeData = function (){
-        //     const data = document.getElementById("hop");
-        //     console.log(data);
-        // };
         //location.hashで#以下を取得 変数hashに格納
         var hash = location.hash;
         //hashの中に#tab～が存在するか調べる。
@@ -188,33 +185,6 @@
         //クリックされたタブのみにクラスselectをつけます。
         $('ul.tab_area li').eq(tabno).addClass('select');
 
-
-        // if (value1 == "amino-simple"){
-        //    location.hash='new'
-        // }else{
-        //     input.value = "赤";
-        // }
-
-
-
-        // var jump = data.value;
-        // console.log(jump);
-
-        // switch( jump ) {
-        //     case 'amino-simple':
-        //         location.hash='new';
-        //         break;
-        //
-        //
-        //     case '曇り':
-        //         console.log('今日は曇りです！');
-        //         break;
-        //
-        //
-        //     case '雨':
-        //         console.log('今日は雨です！');
-        //         break;
-        // }
 
     });
 </script>
